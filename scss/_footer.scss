@@ -1,0 +1,112 @@
+  footer{
+    background: $background-color;
+    .userful-links{
+      margin-top: 1rem;
+      @include media-breakpoint-down(md) {
+        margin-top: 0;
+      }
+      h5{
+        font-size: 1.11rem;
+        &:after{
+          display:inline-block;
+        }
+      }
+      hr{
+        width: 2rem;
+        height: .05rem;
+        background: $color-red;
+        margin: 0;
+        &.transparent{
+          background: transparent;
+        }
+      }
+      .links{
+        ul{
+          li{
+            list-style: none; 
+            a{
+              text-decoration: none;
+              font-size: .85rem;
+              color: $gray;
+              transition: all .4s;
+              &:hover{
+                color:$color-red;
+              }
+            }
+          }
+        }
+      }
+    }
+    .logo{
+      margin-top: 0rem;
+      padding: 0 5rem;
+      @include media-breakpoint-down(md) {
+        padding: 0;
+        margin-top: 1rem;
+      }
+      img{
+        display: block;
+        width: 10rem;
+        margin: 0 auto 2rem auto;
+      }
+      h6{
+        font-size: .9rem;    
+        line-height: 1.4;
+        color: $gray;  
+      }
+      input.email{
+        background: transparent;
+        border: none;
+        width: 100%;
+        font-size: .85rem;
+        padding: 1.3rem 1.25rem;
+        color: $gray;
+        &::placeholder{
+          color:$gray;
+        }
+      }
+      .form-group{
+        background: $icon-background;
+        .btn{
+          padding: .5rem 1.5rem;
+          border:none;
+        }
+      }
+      i{
+        color: $color-red;
+      }
+    }
+    .icons{
+      @include media-breakpoint-down(md) {
+        h6, hr{
+          display: none;
+        }
+        ul{
+          text-align: center;
+        }
+      }
+      a{  
+        cursor: pointer;
+        position: relative;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        background: $icon-background;
+        vertical-align: middle;
+        display: block;
+        margin-bottom: 1rem;
+        text-align: center;
+        transition: all .4s ease;
+        i{
+          color: $white;
+          font-size: .75rem;
+        }   
+        &:hover{
+          background: $white;
+          i{
+            color: $color-red;
+          }
+        }   
+      }   
+    }
+  }

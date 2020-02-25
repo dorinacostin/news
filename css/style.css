@@ -1,0 +1,514 @@
+body aside .black .facebook, body aside .social .facebook {
+  background: #3b5998;
+  padding: .8rem;
+  cursor: pointer; }
+
+body aside .black .twitter, body aside .social .twitter {
+  background: #29b6f6;
+  padding: .8rem;
+  cursor: pointer; }
+
+body aside .black .google, body aside .social .google {
+  background: #f03e34;
+  padding: .8rem;
+  cursor: pointer; }
+
+body aside .black .dribble, body aside .social .dribble {
+  background: #f06292;
+  padding: .8rem;
+  cursor: pointer; }
+
+body aside .black .behance, body aside .social .behance {
+  background: #7286fe;
+  padding: .8rem;
+  cursor: pointer; }
+
+body aside .black .youtube, body aside .social .youtube {
+  background: #ff001e;
+  padding: .8rem;
+  cursor: pointer; }
+
+@media (min-width: 1430px) {
+  .container-fluid {
+    max-width: 1400px;
+    padding-right: .1rem;
+    padding-left: .1rem; } }
+
+body .top, body #categories .top {
+  border-bottom: 0.11rem solid #ddd;
+  margin-top: 1rem; }
+  body .top a, body #categories .top a {
+    padding: .2rem 1.5rem;
+    font-size: .75rem;
+    color: #666666;
+    background: #ddd;
+    margin-bottom: .75rem; }
+    body .top a:hover, body #categories .top a:hover {
+      text-decoration: none; }
+
+body .card.smallest .sub-category, body .card.biggest .sub-category {
+  padding: .3rem .5rem;
+  font-size: .6rem; }
+
+body .card.smallest .date, body .card.biggest .date {
+  font-size: .7rem;
+  padding: .3rem .5rem;
+  color: #666666;
+  line-height: .5rem; }
+  body .card.smallest .date i, body .card.biggest .date i {
+    font-size: .7rem; }
+
+body .card.smallest {
+  border: 0; }
+  body .card.smallest h5 {
+    font-weight: bold;
+    font-size: .9rem;
+    border: none; }
+    body .card.smallest h5 a {
+      color: #212529; }
+
+body .card.biggest {
+  border-top: 0;
+  margin-bottom: 1.5rem; }
+  body .card.biggest h6 {
+    font-weight: bold;
+    font-size: 1.15rem; }
+    body .card.biggest h6 a {
+      color: #212529; }
+
+header > section form {
+  border-right: 1px solid #ced4da;
+  padding-right: .5rem; }
+  header > section form .form-control {
+    border: none;
+    border-radius: 0; }
+  header > section form i {
+    font-size: .9rem;
+    color: #222222 !important; }
+
+header .social {
+  margin-bottom: 0; }
+  header .social i {
+    color: #666666;
+    padding: .4rem;
+    cursor: pointer;
+    transition: all 1s ease; }
+    header .social i:hover {
+      color: #d01e1e; }
+
+header .form a {
+  border-right: 0.033rem solid #ddd;
+  color: #666666;
+  cursor: pointer;
+  transition: all 1s ease; }
+  header .form a:hover {
+    color: #d01e1e; }
+  header .form a i {
+    border-radius: 50%;
+    padding: .5rem;
+    background: #ddd; }
+
+header .form form input {
+  font-size: .7rem;
+  color: #ddd; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif; }
+  body img.card-img, body img.card-img-top, body .card {
+    border-radius: 0; }
+  body a:hover {
+    text-decoration: none; }
+  body .text-danger {
+    transition: all .4s; }
+  body .banner {
+    opacity: .7; }
+  body p {
+    font-size: .75rem; }
+  @media (max-width: 991.98px) {
+    body #menu-header nav.navbar {
+      width: calc(100% - 30px); }
+      body #menu-header nav.navbar .navbar-collapse {
+        position: absolute;
+        top: 3.25rem;
+        width: 100%;
+        z-index: 5;
+        background: #fff; }
+        body #menu-header nav.navbar .navbar-collapse ul {
+          border-right: 0.003rem solid #ddd;
+          border-left: 0.003rem solid #ddd; }
+          body #menu-header nav.navbar .navbar-collapse ul a {
+            border-bottom: 0.003rem solid #ddd; } }
+  @media (max-width: 991.98px) {
+    body.home nav.navbar-fixed-top {
+      margin: 0 auto; }
+    body.home .navbar-collapse {
+      width: 97.5% !important; } }
+  body.page #menu-header {
+    margin-bottom: 1.5rem; }
+    body.page #menu-header .navbar-collapse {
+      top: 2.5rem; }
+  body.page #logo-readmore a img {
+    width: 7rem !important; }
+  body.page #logo-readmore a.nav-link {
+    padding: 0;
+    font-size: .75rem; }
+  body.page #logo-readmore form {
+    padding-right: 0;
+    border-right: 0; }
+    body.page #logo-readmore form input {
+      border-bottom: 1px solid #ced4da; }
+  body.page .jumbotron {
+    padding: 5rem 2rem;
+    border-radius: 0; }
+    body.page .jumbotron li a {
+      color: #fff;
+      font-size: .75rem;
+      padding: 0 .5rem;
+      border-right: 1px solid #fff;
+      line-height: 1; }
+    body.page .jumbotron li:last-of-type a {
+      border-right: 0; }
+  body .bg-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    body .bg-cover .link {
+      margin-left: 42.6rem; }
+      body .bg-cover .link a {
+        text-decoration: none;
+        align-item: center;
+        border-left: 0.03rem solid #fff;
+        padding-left: 1rem; }
+        body .bg-cover .link a:first-of-type {
+          border-left: none;
+          padding-right: 1rem; }
+  body .card-img-overlay {
+    background: rgba(57, 59, 60, 0.4);
+    border-radius: 0;
+    cursor: pointer;
+    transition: .4s all ease-in-out; }
+    body .card-img-overlay:hover {
+      background: transparent; }
+  body .info-card {
+    border: none;
+    color: #fff; }
+    body .info-card .icon-wrapper {
+      position: absolute;
+      top: -.05rem;
+      left: 0;
+      z-index: 2; }
+      body .info-card .icon-wrapper i:before {
+        padding: .45rem;
+        background-color: black;
+        font-size: .7rem; }
+    body .info-card .sub-category {
+      font-family: "Roboto Condensed", sans-serif;
+      padding: .3rem .5rem;
+      font-size: .6rem; }
+    body .info-card .date {
+      font-size: .7rem;
+      padding: .3rem .5rem;
+      line-height: .5rem;
+      color: #fff; }
+      body .info-card .date i {
+        font-size: .8rem; }
+  body #logo-readmore {
+    margin-top: 1.25rem; }
+    body #logo-readmore .justify-content-center a img {
+      width: 10rem; }
+    body #logo-readmore .container-fluid h6 {
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: .75rem; }
+    body #logo-readmore .container-fluid p {
+      margin-bottom: 0;
+      font-size: .6rem; }
+    body #logo-readmore .container-fluid .col {
+      border-left: 0.003rem solid #ddd; }
+      body #logo-readmore .container-fluid .col:first-of-type {
+        border-left: none; }
+      @media (max-width: 991.98px) {
+        body #logo-readmore .container-fluid .col:nth-of-type(2) {
+          text-align: right; } }
+      body #logo-readmore .container-fluid .col img {
+        width: 10rem; }
+  body #menu-header {
+    font-size: .6rem;
+    border-bottom: 0.003rem solid #ddd;
+    border-top: 0.003rem solid #ddd;
+    margin-top: 1.5rem; }
+    body #menu-header .browse {
+      background: #d01e1e;
+      color: #fff;
+      text-transform: uppercase;
+      padding: .9rem 1.3rem .9rem 3.5rem;
+      font-size: .7rem;
+      line-height: 1.4rem; }
+      body #menu-header .browse i {
+        font-size: 1.1rem;
+        top: 1rem;
+        left: 1.5rem;
+        position: absolute; }
+    body #menu-header nav a {
+      font-size: .75rem;
+      color: #222222 !important;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      transition: all .4s; }
+      body #menu-header nav a:hover {
+        color: #d01e1e !important; }
+    body #menu-header nav.social li a {
+      padding-left: .5rem;
+      padding-right: .5rem; }
+  body #top-stories .comment {
+    font-size: .7rem; }
+    body #top-stories .comment i {
+      color: #d01e1e; }
+  body #top-stories a.by {
+    margin-top: .15rem;
+    margin-left: .35rem; }
+  body #top-stories .load-more {
+    margin-top: 2rem;
+    background: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #212529;
+    font-weight: bold;
+    border: 1px solid #999;
+    cursor: pointer; }
+    @media (max-width: 767.98px) {
+      body #top-stories .load-more {
+        margin-top: 1rem; } }
+  @media (max-width: 767.98px) {
+    body #top-stories .col-md-8 .card-body {
+      padding: 1rem 0 0 0; }
+      body #top-stories .col-md-8 .card-body p.pt-0 {
+        margin-bottom: .5rem; } }
+  body #categories .sport {
+    border-bottom: 0.11rem solid #ddd;
+    margin-top: 1rem; }
+  @media (max-width: 767.98px) {
+    body #categories .card.biggest {
+      margin-bottom: 0; }
+    body #categories .card.smallest {
+      display: none; } }
+  body #categories .col-lg-4 {
+    margin-top: 1.5rem; }
+    @media (max-width: 767.98px) {
+      body #categories .col-lg-4 {
+        margin-top: 0; } }
+  @media (max-width: 767.98px) {
+    body aside {
+      margin-top: 2rem; } }
+  body aside h5 {
+    border-bottom: 0.11rem solid #d01e1e;
+    padding-bottom: .75rem; }
+    body aside h5.text-white {
+      border-bottom: 0.11rem solid #fff; }
+  body aside .row {
+    margin: 0 -.25rem; }
+  body aside .card h6.text-white a, body aside .card h5.text-white a {
+    color: #fff; }
+  body aside h4 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-bottom: 0.11rem solid #fff;
+    padding: .5rem 0 .8rem; }
+  body aside .red {
+    background: #d01e1e; }
+    body aside .red h6 {
+      color: white;
+      margin-bottom: 1rem; }
+      body aside .red h6 span {
+        color: #222222;
+        font-weight: bold;
+        margin-right: 1rem; }
+  body aside p {
+    padding-top: .8rem; }
+  body aside .black {
+    background: #222222; }
+  body aside .orange {
+    background: #fd8c28; }
+    body aside .orange .card {
+      background: transparent;
+      border: none; }
+      body aside .orange .card .fa-video {
+        position: absolute;
+        top: 0;
+        margin: 0;
+        padding: .5rem;
+        color: #d01e1e; }
+      body aside .orange .card .date {
+        font-size: .7rem;
+        color: #fff;
+        padding: .3rem .5rem;
+        line-height: .5rem; }
+        body aside .orange .card .date i {
+          font-size: .7rem; }
+  body aside .instagram img {
+    width: 100%;
+    height: auto; }
+  body aside .carousel .carousel-text {
+    background-color: #fff;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+    color: #d01e1e;
+    text-align: center;
+    line-height: 1;
+    padding: .75rem .5rem;
+    border-top: 0.15rem solid #d01e1e; }
+    body aside .carousel .carousel-text span {
+      font-size: .85rem;
+      font-weight: bold; }
+  body aside .newsletter {
+    background: #f5f5f5;
+    margin: 2rem 0;
+    padding: 2rem .25rem; }
+    @media (max-width: 767.98px) {
+      body aside .newsletter {
+        margin-bottom: 0; } }
+    body aside .newsletter h5 {
+      border-bottom: none; }
+    body aside .newsletter .letter i {
+      color: #666666; }
+    body aside .newsletter form input {
+      border-color: #d01e1e;
+      border-radius: 0;
+      margin-bottom: .7rem;
+      background: transparent;
+      font-size: .75rem;
+      height: calc(1.5em + 1.25rem + 2px);
+      padding: .5rem .75rem; }
+    body aside .newsletter form button {
+      border-radius: 0; }
+  body #bottom-gallery {
+    width: 100%;
+    margin-top: 1.5rem; }
+    body #bottom-gallery > a {
+      float: left;
+      width: 16.666667%;
+      padding: 0 0.1rem;
+      box-sizing: border-box; }
+      @media (max-width: 991.98px) {
+        body #bottom-gallery > a {
+          width: 25%; } }
+  @media (max-width: 991.98px) and (max-width: 767.98px) {
+    body #bottom-gallery > a {
+      width: 50%; } }
+  body .copyright {
+    background: #000; }
+    body .copyright p {
+      color: #ddd; }
+
+#single {
+  margin-top: 3rem; }
+  #single .card {
+    border: 0; }
+    #single .card.biggest {
+      margin-bottom: 0; }
+  #single .date {
+    color: #999; }
+  #single .card-body a {
+    font-size: .75rem;
+    padding: .1rem .5rem;
+    color: #999; }
+    #single .card-body a i {
+      color: #d01e1e; }
+  #single h4 {
+    border-top: 1px dashed #999;
+    font-weight: bold;
+    padding-top: 1rem; }
+  #single p {
+    margin-bottom: 1rem;
+    color: #666666;
+    letter-spacing: .01rem;
+    line-height: 1.25rem; }
+  #single .most-visited h6 {
+    border-top: 1px dashed #999; }
+
+footer {
+  background: #222222; }
+  footer .userful-links {
+    margin-top: 1rem; }
+    @media (max-width: 991.98px) {
+      footer .userful-links {
+        margin-top: 0; } }
+    footer .userful-links h5 {
+      font-size: 1.11rem; }
+      footer .userful-links h5:after {
+        display: inline-block; }
+    footer .userful-links hr {
+      width: 2rem;
+      height: .05rem;
+      background: #d01e1e;
+      margin: 0; }
+      footer .userful-links hr.transparent {
+        background: transparent; }
+    footer .userful-links .links ul li {
+      list-style: none; }
+      footer .userful-links .links ul li a {
+        text-decoration: none;
+        font-size: .85rem;
+        color: #b3b3b3;
+        transition: all .4s; }
+        footer .userful-links .links ul li a:hover {
+          color: #d01e1e; }
+  footer .logo {
+    margin-top: 0rem;
+    padding: 0 5rem; }
+    @media (max-width: 991.98px) {
+      footer .logo {
+        padding: 0;
+        margin-top: 1rem; } }
+    footer .logo img {
+      display: block;
+      width: 10rem;
+      margin: 0 auto 2rem auto; }
+    footer .logo h6 {
+      font-size: .9rem;
+      line-height: 1.4;
+      color: #b3b3b3; }
+    footer .logo input.email {
+      background: transparent;
+      border: none;
+      width: 100%;
+      font-size: .85rem;
+      padding: 1.3rem 1.25rem;
+      color: #b3b3b3; }
+      footer .logo input.email::placeholder {
+        color: #b3b3b3; }
+    footer .logo .form-group {
+      background: #4e4e4e; }
+      footer .logo .form-group .btn {
+        padding: .5rem 1.5rem;
+        border: none; }
+    footer .logo i {
+      color: #d01e1e; }
+  @media (max-width: 991.98px) {
+    footer .icons h6, footer .icons hr {
+      display: none; }
+    footer .icons ul {
+      text-align: center; } }
+  footer .icons a {
+    cursor: pointer;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    background: #4e4e4e;
+    vertical-align: middle;
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    transition: all .4s ease; }
+    footer .icons a i {
+      color: #fff;
+      font-size: .75rem; }
+    footer .icons a:hover {
+      background: #fff; }
+      footer .icons a:hover i {
+        color: #d01e1e; }

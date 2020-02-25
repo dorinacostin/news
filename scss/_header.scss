@@ -1,0 +1,50 @@
+  header{
+    &>section{
+      form{
+        border-right: 1px solid $border-color;
+        padding-right: .5rem;
+        .form-control{
+          border: none;
+          border-radius: 0;
+        }
+        i{
+          font-size: .9rem;
+          color:$background-color!important;
+        }
+      }
+    }
+    .social{
+      margin-bottom: 0;
+      i{
+        color:$text-gray;
+        padding: .4rem;
+        cursor: pointer;
+        transition: all 1s ease;
+        &:hover{
+          color:$color-red;
+        }
+      }
+    }
+    .form{
+      a{
+        border-right: .033rem solid $color-light;
+        color: $text-gray;   
+        cursor: pointer;
+        transition: all 1s ease;
+        &:hover{
+          color:$color-red;
+        }
+        i{
+            border-radius: 50%;
+            padding: .5rem;
+            background: $color-light;
+        }
+      }
+      form{
+        input{
+          font-size: .7rem;
+          color: $color-light;
+        }
+      }
+    }    
+  }
